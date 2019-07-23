@@ -4,12 +4,11 @@ import UserCreate from './create';
 
 class UserList extends React.Component {
    render() {
-        
         return (
             <div>
                 <h1>user section</h1>
-                <Link to="/usre/create">create User</Link>
-                <Route path="/usre/create" component={UserCreate}/>
+                <Link to="/user/create">create User</Link>
+                <Route path="/user/create" component={UserCreate}/>
             </div>
         );
     }
