@@ -6,10 +6,7 @@ class UserCreate extends React.Component {
         
         return (
             <div>
-                <h1>route 1</h1>
-                <Link to="/route-test/route2">Route2</Link>
-                <Route path={`route-test/:route2`} component={Route2}/>
-                {/* <Route exact path="/route-test/route2" component={Route2} /> */}
+               <h1>form design wil go here</h1>
             </div>
         );
     }
